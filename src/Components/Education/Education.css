@@ -1,0 +1,212 @@
+.education-heading , .certifications-heading{
+    margin-top: 100px;
+    margin-left: 110px;
+}
+.education-h4, .certifications-h4{
+    font-size: 19px;
+    color: #dee2e6;
+}
+.education-Line{
+    height: 1px;
+    width: 10%;
+    background-color: #ccc; 
+    margin-left: 100px;
+    margin-top: -35px;
+}
+.certifications-Line{
+    height: 1px;
+    width: 10%;
+    background-color: #ccc; 
+    margin-left: 180px;
+    margin-top: -35px;
+}
+.btech-image, .inter-image{
+    width: 410px;
+}
+.btechimage{
+    width: 100%;
+    height: 100px;
+}
+.schoolimage{
+    width: 100%;
+    height: 150px;
+}
+.interimage{
+    width: 100%;
+    height: 250px;
+    margin-top: -70px;
+}
+.inter-details{
+    margin-top: -70px;
+}
+.education-details{
+    display: flex;
+}
+.education-btech{
+    margin-top: 20px;
+    width: 400px;
+    background: #09203a;
+    padding: 40px 40px;
+    margin-left: 130px;  
+    text-align: start;  
+}
+.education-inter{
+    margin-top: 20px;
+    width: 400px;
+    background: #09203a;
+    padding: 40px 40px;
+    margin-left: 130px;  
+    text-align: start;  
+}
+.education-details1{
+    margin-top: 30px;
+}
+.education-btech:hover, .education-inter:hover{
+    background: #042e5f;
+}
+.certificates{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 190px;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.certificates1, .certificates2, .certificates3{
+    width:300px;
+}
+.awsimage, .geeksterimage{
+    width: 300px;
+    height: 140px;
+}
+.portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+}
+.portfolio-wrap::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+  
+.portfolio-wrap .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-wrap .portfolio-info::before {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+.portfolio-wrap .portfolio-info::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+.portfolio-wrap .portfolio-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.portfolio-wrap .portfolio-info p {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+.portfolio-wrap .portfolio-links {
+    text-align: center;
+    z-index: 4;
+}
+.portfolio-wrap .portfolio-links a {
+    color: #fff;
+    margin: 0 2px;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.portfolio-wrap .portfolio-links a:hover {
+    color: #63eda3;
+}
+.portfolio-wrap:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+.portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+}
+.portfolio-wrap:hover .portfolio-info::before {
+    top: 15px;
+    left: 15px;
+}
+.portfolio-wrap:hover .portfolio-info::after {
+    bottom: 15px;
+    right: 15px;
+}
+@media (max-width: 768px) {
+    .education-heading, .certifications-heading {
+      margin-left: 20px;
+    }
+    .certifications{
+        margin-top: -50px;
+    }
+    .education-details, .certificates {
+      flex-direction: column;
+      align-items: center;
+    }
+    .education-btech, .education-inter , .education-btech {
+        width: 60%;
+        margin-right: 100px;
+    }
+    .certificate-1, .certificate-2, .certificate-3{
+        width: 100%;
+        margin-left: -200px;
+    }
+    .btechimage, .interimage, .schoolimage{
+        width: 70%;
+    }
+    .education-details1{
+        width: 100%;
+        margin-left: -60px;
+    }
+  }

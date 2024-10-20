@@ -1,0 +1,236 @@
+.about{
+   display: flex;
+   align-items: center;
+}
+.about-image{
+   object-fit: cover;
+   flex: 2;
+}
+.image{
+    width: 100%;
+    height:auto;
+}
+.about-content {
+    flex: 2; 
+}
+.about-me {
+    max-width: 600px; 
+}
+.about-me h4 {
+    font-size:19px; 
+    margin-bottom: 10px;
+    margin-top: -170px;
+    margin-left: 30px; 
+    display: flex;
+}
+.Line {
+    height: 1px;
+    width: 20%;
+    background-color: #ccc; 
+    margin-left: 110px;
+    margin-top: -23px;
+  }
+.about-me p {
+    font-size: 16px; 
+    line-height: 1.6; 
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.details-1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.details1-icon{
+    color: #12D640;
+}
+.details2-icon{
+    color: #12D640;
+    margin-left: 30px;
+}
+.details-2{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.details3-icon{
+    color: #12D640;
+}
+.details4-icon{
+    color: #12D640;
+    margin-left: 30px;
+}
+.Line1 {
+    height: 1px;
+    width: 10%;
+    background-color: #ccc; 
+    margin-left: 210px;
+    margin-top: -20px;
+}
+.interests-h4{
+    font-size:19px; 
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 100px; 
+    display: flex;
+}
+.interests{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    gap:40px;
+    margin-left: 110px;
+}
+.interests-1, .interests-2, .interests-3, .interests-4, .interests-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #010e1b;
+    background-color: #09203a;
+    color: white;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.interestsicon-1{
+   font-size: 32px;
+   padding-right: 10px;
+   line-height: 1;
+   color:  #ffbb2c;
+}
+.interestsicon-2{
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+    color:  #5578ff;
+}
+.interestsicon-3{
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+    color:#e80368;
+}
+.interestsicon-4{
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+    color: #1c7d32;
+ }
+.interestsicon-5{
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+    color: #28a745;
+}
+.interestsicon-6{
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+    color:  #f1081f;
+}
+.interests-6, .interests-7, .interests-8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #010e1b;
+    background-color: #09203a;
+    color: white;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.interests1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    gap:40px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+.interestsicon-7{
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+    color:#47aeff;
+}
+.interestsicon-8{
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+    color: #ffc107;
+}
+.interests-1:hover{
+    background: #042b56eb;
+}
+.interests-2:hover{
+    background: #042b56eb;
+}
+.interests-3:hover{
+    background: #042b56eb;
+}
+.interests-4:hover{
+    background: #042b56eb;
+}
+.interests-5:hover{
+    background: #042b56eb;
+}
+.interests-6:hover{
+    background: #042b56eb;
+}
+.interests-7:hover{
+    background: #042b56eb;
+}
+.interests-8:hover{
+    background: #042b56eb;
+}
+@media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
+    .about-image {
+      width: 100%;
+    }
+    .about-me h4 {
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    .about-me p {
+      margin-left: 10px;
+      margin-top: 15px;
+      flex-direction: column;
+      margin-right: 10px;
+    }
+    .interests-h4{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .Line{
+        margin-left:90px;
+    }
+    .Line1{
+        margin-left:130px;
+    }
+    .interests, .interests1 {
+      flex-direction: column;
+      margin-left: 0px;
+      align-items: center;
+    }
+    .details-1, .details-2 {
+        flex-direction: column;
+        display: flex;
+    }
+    .details1-icon, .details2-icon, .details3-icon, .details4-icon{
+        margin-left: 0px;
+    }
+    .interests-1, .interests-2, .interests-3, .interests-4, .interests-5, .interests-6, .interests-7, .interests-8{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+

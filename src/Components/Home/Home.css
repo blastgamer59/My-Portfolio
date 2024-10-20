@@ -1,0 +1,134 @@
+body {
+   background-color: #010e1b;
+   color:#fff;
+  }
+.header-h1{
+   font-size: 50px;
+   margin-top: 190px;
+   margin-left: 130px;
+   color: #dee2e6;
+}
+.header-h2{
+   margin-left: 150px;
+   display: flex;
+   margin-top: -20px;
+   margin-left: 140px;
+   color:  #dee2e6;
+}
+.typewriter{
+   margin-left: 5px;
+   color: #12D640;
+   text-decoration: underline;
+   font-size: 25px;
+}
+.menu-links{
+   display: flex;
+   margin-left: 140px; 
+   gap: 35px;
+   margin-top: 35px;
+}
+.links{
+   color: white;
+   font-size: 20px;
+   text-decoration: none;
+   position: relative;
+}
+.links:after {
+   content: "";
+   display: block;
+   height: 2px;
+   width: 0;
+   position: absolute;
+   left: 50%;
+   bottom: -5px;
+   background: #9e7f25;
+   transition: width 0.3s ease, left 0.3s ease;
+ }
+.links:hover:after {
+   width: 100%;
+   left: 0;
+}
+.links:hover{
+   color: #12D640;
+}
+.links.active {
+   color: #12D640; 
+ }
+.social-links {
+   margin-top: 35px;
+   display: flex;
+   margin-left: 140px;
+   gap: 10px;
+}
+.social-link {
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgba(255, 255, 255, 0.1);
+   color: #fff;
+   line-height: 1;
+   margin-right: 8px;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+}
+.social-link:hover {
+   background: #1c7d32;
+}
+.home-toggle {
+   display: none;
+   font-size: 24px;
+   background: none;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   float: right;
+   margin-top: -170px;
+   margin-right: 20px;
+}
+@media (max-width: 768px) {
+   .header-h1 {
+      font-size: 36px;
+    }
+   .header-h2 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 20px;
+   }
+   .home-toggle {
+      display: block;
+    }
+   .menu-links.open {
+      display: flex;
+      flex-direction: column;
+    }
+    .menu-links {
+      flex-direction: column; 
+      align-items: flex-start;
+      margin-left: 20px;
+      gap: 10px;
+      display: none; 
+      position: absolute; 
+      top: 70px; 
+      left: 0;
+      width: 90%;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      padding: 10px 0;
+      z-index: 1; 
+      border: 2px solid rgba(255, 255, 255, 0.12);
+    }
+    .links{
+      display: block;
+      position: relative;
+      color: #fff;
+      padding: 10px 20px;
+      font-weight: 500;
+      outline: none;
+      text-decoration: none;
+   }
+   .links:after {
+      display: none;
+   }
+}

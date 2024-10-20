@@ -1,0 +1,167 @@
+.skill-heading {
+    margin-top: 100px;
+    margin-left: 120px;
+  }
+  .skill-h4 {
+    font-size: 19px;
+    color: #dee2e6;
+  }
+  .skill-Line {
+    height: 1px;
+    width: 10%;
+    background-color: #ccc;
+    margin-left: 60px;
+    margin-top: -35px;
+  }
+  .skill-landata {
+    width: 75%;
+    height: 39.9vh;
+    background-color: white;
+    margin-left: 150px;
+  }
+  .skills-h4 {
+    font-size: 19px;
+    color: black;
+    margin-left: 30px;
+  }
+  .images {
+    display: flex;
+    gap: 10px;
+  }
+  .pythonimage {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+  }
+  .htmlimage {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  .cssimage {
+    width: 130px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  .javascriptimage {
+    display: flex;
+    width: 140px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  .reactimage {
+    width: 130px;
+    height: 100px;
+    margin-left: 50px;
+  }
+  .nodeimage {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  .pandaimage {
+    width: 120px;
+    height: 100px;
+  }
+  .visualimage {
+    width: 180px;
+    height: 100px;
+    margin-left: 50px;
+  }
+  .gitimage {
+    width: 140px;
+    height: 100px;
+  }
+  .skill-others {
+    width: 75%;
+    height: 30vh;
+    background-color: white;
+    margin-left: 150px;
+    margin-bottom: 50px;
+  }
+  .skill-frame {
+    width: 75%;
+    height: 30vh;
+    background-color: white;
+    margin-left: 150px;
+  }
+  
+  /* Media queries for mobile devices */
+  @media (max-width: 768px) {
+    .skill-heading {
+        margin-left: 20px;
+      }
+      .skill-h4 {
+        font-size: 20px;
+      }
+      .skill-Line {
+        width: 20%;
+        margin-left: 60px;
+        margin-top: -39px;
+      }
+      .skill-landata, .skill-frame, .skill-others {
+        width: 70%;
+        height: 60vh;
+        margin-left: 50px;
+        padding: 20px;
+        margin-top: 50px;
+      }
+      .skills-h4 {
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+      }
+      .images {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .pythonimage {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+      }
+      .htmlimage {
+        width: 80px;
+        height: 80px;
+        margin-top: 0;
+      }
+      .cssimage {
+        width: 100px;
+        height: 80px;
+        margin-top: 0;
+        margin-left: 0;
+      }
+      .javascriptimage {
+        width: 110px;
+        height: 80px;
+        margin-top: 0;
+    }
+      .reactimage {
+        width: 100px;
+        height: 80px;
+        margin-left: 0;
+      }
+      .nodeimage {
+        width: 80px;
+        height: 80px;
+        margin-left: 0;
+      }
+     .pandaimage {
+        width: 100px;
+        height: 80px;
+      }
+      .visualimage {
+        width: 140px;
+        height: 80px;
+        margin-left: 0;
+      }
+      .gitimage {
+        width: 110px;
+        height: 80px;
+      }
+    }
+    
+   
+  

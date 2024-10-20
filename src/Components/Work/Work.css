@@ -1,0 +1,47 @@
+.work-Line{
+    height: 1px;
+    width: 10%;
+    background-color: #ccc; 
+    margin-left: 160px;
+    margin-top: -35px;
+}
+.workbox-1{
+    color: #444444;
+    padding: 20px;
+    width: 80%;
+    background: #09203a;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.work-list{
+    color: white;
+}
+.workbox1-h3{
+    font-size: 20px;
+    color: #28a745;
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+}
+@media (max-width: 768px) {
+    .work-Line {
+      width: 20%;
+      margin-left: 160px;
+      margin-top: -38px;
+    }
+    .workbox-1 {
+      width: 80%;
+      margin-left: 5%;
+      padding: 10px;
+    }
+    .workbox1-h3 {
+      font-size: 13px;
+      margin: 10px 0 8px 10px;
+    }
+    .work-list {
+      padding-left: 20px;
+    }
+    .work-list li {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
