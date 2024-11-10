@@ -63,7 +63,7 @@
     height: 45px;
     margin-top: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .contact-Line {
       margin-left: 85px;
      }

@@ -17,8 +17,8 @@
     display: flex;
 }
 .projectheading-1{
-    font-size: 18.5px;
-    margin-top: 50px;
+    font-size: 15px;
+    margin-top: 30px;
     margin-left: 170px;
 }
 .projectimage-1{
@@ -35,8 +35,8 @@
     height: 100%;
 }
 .projectheading-2{
-    font-size: 18.5px;
-    margin-top: 50px;
+    font-size: 15px;
+    margin-top: 30px;
     margin-left: 40px;
 }
 .projectimage-2{
@@ -175,7 +175,7 @@
     margin-left: 20px;
     margin-top: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .project-heading {
       margin-left: 20px;
     }
@@ -183,7 +183,7 @@
       flex-direction: column;
       align-items: center;
     }
-    .projectheading-1 {
+    .projectheading-1, .projectheading-2 {
       margin-left: 50px;
     }
     .projectimage-1{
@@ -192,9 +192,6 @@
     }
     .projectportfolio{
         width: 100%;
-    }
-    .projectheading-2{
-        margin-left: 50px;
     }
     .projectimage-2{
         width: 70%;
@@ -217,7 +214,5 @@
         margin-left: 10px;
         margin-top: 5px;
       }
-      .projectimage-2{
-        margin-left: 50px;
-    }
+
   }

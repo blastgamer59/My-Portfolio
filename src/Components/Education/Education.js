@@ -6,6 +6,8 @@ import Interimage from "../../Images/interimage.png";
 import Schoolimage from "../../Images/schoolimage.jpg";
 import Awsimage from "../../Images/awsacademy.jpg";
 import Geeksterimage from "../../Images/geeksterimage.jpg";
+import Greatlearning from "../../Images/greatlearning.jpg";
+import Prayugimage from "../../Images/prayug.jpg"
 import { IoIosLink } from "react-icons/io";
 const Education = () => {
   return (
@@ -114,6 +116,34 @@ const Education = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="certificates">
+        <div className="certificate-4">
+          <div class="portfolio-wrap">
+            <img src={Greatlearning} className="geeksterimage" alt="" />
+            <div class="portfolio-info">
+              <h4>Python For Data Science</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1jOvfFIa4eZMGKUcYLT5g1DC3WF3Xl_qa/view?usp=drive_link">
+                  <IoIosLink />
+                </a>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div className="certificate-4">
+          <div class="portfolio-wrap">
+            <img src={Prayugimage} className="geeksterimage" alt="" />
+            <div class="portfolio-info">
+              <h4>Data Analyst</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1rzLB1u9phfz_-dvktqn97FwDHwiKBwaO/view?usp=drive_link">
+                  <IoIosLink />
+                </a>
+              </div>
+            </div>  
           </div>
         </div>
       </div>

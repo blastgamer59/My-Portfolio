@@ -59,7 +59,7 @@
 .nav-link:hover {
     color: #12D640;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .navbar-h1{
        font-size: 15px;
        display: flex;
@@ -67,7 +67,7 @@
     }
     .navbar-toggle {
         display: block;
-        margin-left: 230px;
+        margin-left: 160px;
       }
      .nav-links {
         flex-direction: column; 

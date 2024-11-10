@@ -68,7 +68,7 @@ const Navbar = () => {
           </Link>
           <Link
             className="nav-link"
-            to="https://drive.google.com/file/d/1zsSWZtVSF1SXwhpGGwrRLGYUHO2OPECo/view?usp=drive_link"
+            to="https://drive.google.com/file/d/1OeSnRCtVCuomPdtO69lnIx6EEgZB1PK3/view?usp=drive_link"
           >
             Resume
           </Link>

@@ -86,9 +86,7 @@
     background-color: white;
     margin-left: 150px;
   }
-  
-  /* Media queries for mobile devices */
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .skill-heading {
         margin-left: 20px;
       }

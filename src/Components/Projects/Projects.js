@@ -4,6 +4,7 @@ import "./Projects.css";
 import { useState } from "react";
 import Projectimage1 from "../../Images/twitterprojecimage.webp";
 import Projectimage2 from "../../Images/blogimage.png";
+import Projectimage3 from "../../Images/to-dolist.webp";
 import { CiCircleInfo } from "react-icons/ci";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -34,9 +35,22 @@ const style1 = {
   boxShadow: 24,
   p: 4,
 };
+const style2 = {
+  position: "absolute",
+  top: "45%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 700,
+  bgcolor: "#010e1b",
+  border: "none",
+  outline: "none",
+  boxShadow: 24,
+  p: 4,
+};
 const Projects = () => {
   const [open, setopen] = useState(false);
   const [open1, setopen1] = useState(false);
+  const [open2, setopen2] = useState(false);
   const handleopen = () => {
     setopen(true);
   };
@@ -48,6 +62,12 @@ const Projects = () => {
   };
   const handleclose1 = () => {
     setopen1(false);
+  };
+  const handleopen2 = () => {
+    setopen2(true);
+  };
+  const handleclose2 = () => {
+    setopen2(false);
   };
   return (
     <>
@@ -112,14 +132,9 @@ const Projects = () => {
                       </ul>
                       <div className="modal-p">
                         <p>
-                          Developed a real-time Twitter clone using the MERN
-                          stack (MongoDB, Express.js, React.js, Node.js) with
-                          features such as user authentication (Google, phone
-                          login and email & password), password reset, and
-                          subscription-based tweet limits. Integrated Stripe for
-                          payment processing and created responsive UI
-                          components, ensuring a seamless user experience across
-                          devices.
+                          Built a real-time social media app using the MERN
+                          stack, featuring secure authentication with Firebase
+                          API and Responsive design.
                         </p>
                       </div>
                     </div>
@@ -182,6 +197,71 @@ const Projects = () => {
                           website is for sharing my portfoilo in a smart way, it
                           definetly impressive and creative way for sharing your
                           profile.
+                        </p>
+                      </div>
+                    </div>
+                  </Box>
+                </Modal>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectdetails-1">
+          <h3 className="projectheading-2">To-Do List Application</h3>
+          <div className="projectimage-2">
+            <div class="portfolio-wrap">
+              <img
+                src={Projectimage3}
+                className="projectportfolio"
+                alt="project"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <CiCircleInfo
+                    onClick={handleopen2}
+                    className="project-icon1"
+                  />
+                </div>
+                <Modal
+                  open={open2}
+                  onClose={handleclose2}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box className="phone-box" sx={style2}>
+                    <div className="modal-header">
+                      <IconButton onClick={handleclose2}>
+                        <Tooltip title="Close">
+                          <CloseIcon className="modal-close" />
+                        </Tooltip>
+                      </IconButton>
+                    </div>
+                    <div className="modal-heading">
+                      <h2>To-Do List Application</h2>
+                    </div>
+                    <div>
+                      <ul className="project1-list">
+                        <li>
+                          Tech Stack: React.js, Node.js, Express.js, MongoDB,
+                          CSS{" "}
+                        </li>
+                        <li>
+                          GitHub URL:
+                          <a
+                            href="https://github.com/blastgamer59/To-Do-List"
+                            className="project-link"
+                          >
+                            Project Link
+                          </a>
+                        </li>
+                      </ul>
+                      <div className="modal-p">
+                        <p>
+                          Created a task management app with CRUD operations
+                          using React.js and Node.js for efficient user
+                          experience. The app allows users to create, read,
+                          update, and delete tasks.
                         </p>
                       </div>
                     </div>

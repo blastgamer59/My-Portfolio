@@ -85,12 +85,12 @@ body {
    cursor: pointer;
    float: right;
    margin-top: -170px;
-   margin-right: 20px;
+   margin-right: 30px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
    .header-h1 {
-      font-size: 36px;
-    }
+      font-size: 28px;
+   }
    .header-h2 {
       font-size: 20px;
       line-height: 30px;
@@ -98,7 +98,7 @@ body {
    }
    .home-toggle {
       display: block;
-    }
+   }
    .menu-links.open {
       display: flex;
       flex-direction: column;
@@ -110,9 +110,9 @@ body {
       gap: 10px;
       display: none; 
       position: absolute; 
-      top: 70px; 
+      top: 50px; 
       left: 0;
-      width: 90%;
+      width: 83%;
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 10px;
       padding: 10px 0;

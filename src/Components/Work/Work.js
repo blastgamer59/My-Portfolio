@@ -22,25 +22,20 @@ const Work = () => {
           </h3>
           <ul className="work-list">
             <li>
-              Developed key features for a real-time Twitter-Clone web
-              application using the MERN stack, including authentication (Google
-              and phone), password reset functionality, and subscription systems
-              with Stripe integration.
+              Successfully built a Twitter-like social media platform using the
+              MERN stack (MongoDB, Express.js, React.js, Node.js) at NullClass,
+              showcasing expertise in full-stack development and modern web
+              technologies.
             </li>
             <li>
-              Implemented responsive design, enhancing user experience across
-              mobile and desktop platforms.
+              Integrated Firebase API to implement robust user authentication
+              features, including Google and phone-based login, enhancing
+              security and user experience.
             </li>
             <li>
-              Focused on security and scalability by managing user data with
-              MongoDB and utilizing Firebase for authentication, and post the
-              tweets with photos, and you can edit the profile like Profile
-              image and Cover image and Name, Bio, Location and you can add your
-              or any Website Links.{" "}
-            </li>
-            <li>
-              Delivered tasks independently, including payment gateway
-              integration, user authentication, and mobile responsiveness.{" "}
+              Developed real-time features for seamless user interactions and
+              ensured responsive design for optimal performance across devices,
+              adhering to best practices in Front-End and Back-End development.
             </li>
           </ul>
         </div>
