@@ -61,13 +61,13 @@
 }
 @media (max-width: 767px) {
     .navbar-h1{
-       font-size: 15px;
+       font-size: 12px;
        display: flex;
        margin-left: 20px;
     }
     .navbar-toggle {
         display: block;
-        margin-left: 160px;
+        margin-left: 190px;
       }
      .nav-links {
         flex-direction: column; 
