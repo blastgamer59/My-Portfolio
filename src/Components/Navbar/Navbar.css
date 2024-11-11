@@ -61,7 +61,7 @@
 }
 @media (max-width: 767px) {
     .navbar-h1{
-       font-size: 12px;
+       font-size: 10px;
        display: flex;
        margin-left: 20px;
     }
