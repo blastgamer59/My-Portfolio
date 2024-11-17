@@ -8,6 +8,7 @@ import Awsimage from "../../Images/awsacademy.jpg";
 import Geeksterimage from "../../Images/geeksterimage.jpg";
 import Greatlearning from "../../Images/greatlearning.jpg";
 import Prayugimage from "../../Images/prayug.jpg"
+import Congitiveimage from "../../Images/machineimage.jpg"
 import { IoIosLink } from "react-icons/io";
 const Education = () => {
   return (
@@ -140,6 +141,20 @@ const Education = () => {
               <h4>Data Analyst</h4>
               <div class="portfolio-links">
                 <a href="https://drive.google.com/file/d/1rzLB1u9phfz_-dvktqn97FwDHwiKBwaO/view?usp=drive_link">
+                  <IoIosLink />
+                </a>
+              </div>
+            </div>  
+          </div>
+        </div>
+
+        <div className="certificate-4">
+          <div class="portfolio-wrap">
+            <img src={ Congitiveimage} className="geeksterimage" alt="" />
+            <div class="portfolio-info">
+              <h4>Machine Learning</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1zE-4PIBM9trv76pDNIX-P3dBzeuU7BfU/view?usp=drive_link">
                   <IoIosLink />
                 </a>
               </div>

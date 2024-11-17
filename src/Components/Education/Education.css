@@ -21,7 +21,7 @@
     margin-top: -35px;
 }
 .btech-image, .inter-image{
-    width: 410px;
+    width: 250px;
 }
 .btechimage{
     width: 100%;
@@ -44,7 +44,7 @@
 }
 .education-btech{
     margin-top: 20px;
-    width: 400px;
+    width: 250px;
     background: #09203a;
     padding: 40px 40px;
     margin-left: 130px;  
@@ -52,7 +52,7 @@
 }
 .education-inter{
     margin-top: 20px;
-    width: 400px;
+    width: 250px;
     background: #09203a;
     padding: 40px 40px;
     margin-left: 130px;  
@@ -185,7 +185,7 @@
 }
 @media (max-width: 767px) {
     .education-heading, .certifications-heading {
-      margin-left: 20px;
+      margin-left: 30px;
     }
     .certifications{
         margin-top: -50px;
@@ -199,14 +199,14 @@
         margin-left: 20px;
     }
     .certificate-1, .certificate-2, .certificate-3, .certificate-4 , .certificate-5{
-        width: 130%;
+        width: 132%;
         margin-left: -170px;
     }
     .btechimage, .interimage, .schoolimage{
-        width: 65%;
+        width: 100%;
     }
     .education-details1{
         width: 100%;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 }
